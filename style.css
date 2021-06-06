@@ -1,0 +1,50 @@
+html {
+    overflow: hidden;
+}
+
+body { 
+    background: url(./love-birds.jpg) no-repeat center right fixed; 
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    color: rgb(179, 19, 179);
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: 'Mountains of Christmas', cursive;
+    /* font-family: 'Coming Soon', cursive; */
+    font-size: 50px;
+    font-weight: 550;
+    padding-left: 5%;
+    margin: 5% 0;
+}
+
+.clock {
+    margin: 6% auto 0 5%;
+}
+
+#audio {
+    margin: 15% 0 0 10%;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 800px) {
+       
+    h1 {
+        font-size: 40px;
+        margin: 5% 0;
+    }
+
+    .clock {
+        margin: 10% auto 0 5%;
+    }
+
+    #audio {
+        margin: 3% 0 0 10%;
+    }
+
+}

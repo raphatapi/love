@@ -3,7 +3,7 @@ html {
 }
 
 body { 
-    background: url(./love-birds.jpg) no-repeat center right fixed; 
+    background: url(./IMG_20210501_113746.jpg) no-repeat left center fixed; 
     background-size: cover;
     height: 100%;
     overflow: hidden;
@@ -24,11 +24,11 @@ h1 {
 }
 
 .clock {
-    margin: 6% auto 0 5%;
+    margin: 10% auto 0 55%;
 }
 
 #audio {
-    margin: 15% 0 0 10%;
+    margin: 20% 0 0 10%;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */

@@ -1,7 +1,7 @@
 $(document).ready(function() {    
 
     var title = $("<h1>");
-    title.text("Estou contando os segundos pra te ver...");
+    title.text("Agora só falta um mês!!");
     var timer = $("<div>");
     timer.addClass("clock");
     $("#main").html(title).append(timer);

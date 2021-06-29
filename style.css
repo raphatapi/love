@@ -5,7 +5,7 @@ html {
 }
 
 body { 
-    background: url(./IMG_20210428_170209.jpg) no-repeat center center fixed; 
+    background: url(./IMG_20210422_103717.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -40,7 +40,7 @@ h1 {
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-    margin-left: -50%;
+    margin-left: 50%;
 }
 
 #player {

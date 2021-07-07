@@ -5,7 +5,7 @@ html {
 }
 
 body { 
-    background: url(./IMG_20210501_113338.jpg) no-repeat center center fixed; 
+    background: url(./IMG_20210501_111356.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -38,9 +38,9 @@ h1 {
 	flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: center;
-	align-items: center;
+	align-items: left;
 	align-content: center;
-    margin-left: 50%;
+    margin-left: 5%;
 }
 
 #player {
@@ -51,11 +51,11 @@ h1 {
 	align-items: center;
 	align-content: center;
     margin-top: 20%;
-    margin-left: 55%;
+    /* margin-left: 5%; */
 }
 
 #player iframe {
-    width: 100%;
+    width: 50%;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -67,6 +67,7 @@ h1 {
     }
 
     #clock {
+        align-items: center;
         margin-left: auto;
     }
 
@@ -89,16 +90,17 @@ h1 {
     }
 
     #clock {
+        align-items: center;
         margin-left: auto;
     }
 
     #player {
-        margin-left: 60%;
+        /* margin-left: 60%; */
         margin-top: 5%;
     }
 
-    #player iframe {
+    /* #player iframe {
         width: 100%;
-    }
+    } */
 
 }

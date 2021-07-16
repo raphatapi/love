@@ -5,7 +5,7 @@ html {
 }
 
 body { 
-    background: url(./IMG_20210503_173603.jpg) no-repeat center center fixed; 
+    background: url(./IMG_20210501_111356.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -33,6 +33,15 @@ h1 {
                 0px 18px 23px rgba(0,0,0,0.1);
 }
 
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(97, 139, 216);
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                0px 8px 13px rgba(0,0,0,0.1),
+                0px 18px 23px rgba(0,0,0,0.1);
+    margin: 0;
+}
+
 #clock {
     display: flex;
 	flex-direction: column;
@@ -50,7 +59,7 @@ h1 {
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-    margin-top: 20%;
+    margin-top: 15%;
     /* margin-left: 5%; */
 }
 

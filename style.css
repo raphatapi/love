@@ -5,7 +5,7 @@ html {
 }
 
 body { 
-    background: url(./hb.jpg) no-repeat center center fixed; 
+    background: url(./IMG_20210501_113338.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -53,7 +53,7 @@ h4 {
 	justify-content: center;
 	align-items: left;
 	align-content: center;
-    margin-left: 5%;
+    margin-left: 55%;
 }
 
 #player {

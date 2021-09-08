@@ -5,13 +5,28 @@ html {
 }
 
 body { 
-    background: url(./IMG_20210501_113746.jpg) no-repeat center center fixed; 
+    /* background: url(./love.mp4) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    overflow: hidden;
+    overflow: hidden; */
 }
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    width: 100%;
+  }
 
 #header {
     display: flex;
@@ -53,7 +68,7 @@ h4 {
 	justify-content: center;
 	align-items: left;
 	align-content: center;
-    margin-left: 55%;
+    margin-left: 30%;
 }
 
 #player {
@@ -74,6 +89,12 @@ h4 {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 400px) {
        
+    .content {
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    
     h1 {
         font-size: 40px;
         margin: 5% 0;

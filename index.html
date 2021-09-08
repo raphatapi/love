@@ -11,17 +11,24 @@
     <script src="./flipdown.js"></script>
 </head>
 <body>
-    <div id="header">
-        <h2>Meu Amor!</h2>
-        <h1>❤️Ja nao aguento mais de tanta saudade!❤️</h1>
+    <!-- The video -->
+    <video autoplay muted loop id="myVideo">
+        <source src="./love.mp4" type="video/mp4">
+    </video>
+    <div class="content">
+        <div id="header">
+            <h2>Amor da minha vida!</h2>
+            <h1>❤️So faltam 3 semanas pra te ver❤️</h1>
+        </div>
+        <div id="clock">
+            <div id="flipdown" class="flipdown"></div>
+        </div>
+        <div id="player">
+            <!-- <audio id="audio" src="./06 All of Me.m4a" controls autoplay></audio> -->
+            <iframe src="https://open.spotify.com/embed/track/7cpCU3Denug5NGZsSpQl8v" width="50%" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div> 
     </div>
-    <div id="clock">
-        <div id="flipdown" class="flipdown"></div>
-    </div>
-    <div id="player">
-        <!-- <audio id="audio" src="./06 All of Me.m4a" controls autoplay></audio> -->
-        <iframe src="https://open.spotify.com/embed/track/3U4isOIWM3VvDubwSI3y7a" width="50%" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-    </div> 
+    
     
     
     <script>
